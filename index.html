@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Julien Lisita - Portfolio</title>
+</head>
+<body>
+    <header>
+        <div id = "titre-principal">
+            <h1>Julien Lisita</h1>
+            <h2>Développeur Web</h2>
+        </div>
+        <nav>
+            <ul>
+                <li><a href="#projets">Acceuil</a></li>
+                <li><a href="#about">A propos</a></li>
+                <li><a href="#projects">Projets</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id = "about">
+            <h2>A propos de moi</h2>
+            <img src="Assets/images/profil.png" alt=" ma tronche" width = "200">
+            <p>
+                Après avoir travaillé dans le développement de logiciels 
+                embarqués pour des entreprises comme Thales, Safran et Valéo, j'ai décidé d'élargir mes compétences au développement de sites web.   
+                Je suis actuellement une formation full-stack centré sur JavaScript.
+            </p>   
+            <p>
+                Passionné de sciences et de nouvelles technologies, je m’intégrerai avec enthousiasme au sein d’une équipe dynamique afin d’apporter mes compétences sur les différentes phases de conception d’un logiciel.
+            </p>
+        </section>
+        <section id = "projects">
+            <h2>Projets</h2>
+            <article>
+                <p><img src="Assets/images/chess.png" alt="image de la console" width = "400"></p>
+                <h3>Shell Chess (langage C)</h3>
+                <p>Jeu d'échec en ligne de commande</p>
+                <p><a href="https://github.com/jlisita/Shell_Chess" target="_blank">voir sur Github</a></p>
+            </article>
+            <article>
+                <p><img src="assets/images/klondike.png" alt="image de la console" width = "400"></p>
+                <h3>Klondike Game (Langage Java)</h3>
+                <p>Jeu du solitaire en ligne de commande</p>
+                <p><a href="https://github.com/jlisita/Klondike_game" target="_blank">voir sur Github</a></p>
+            </article>
+            <article>
+                <p><img src="assets/images/list.png" alt="image de l'interface" width = "200"></p>
+                <h3>Data structure Framework (Langage Java interface Swing)</h3>
+                <p>Framework contenant des classes de type list permettant de stocker et manipuler des ensembles de donées. 
+                    Une interface graphique est ajouter pour les tests</p>
+                <p><a href="https://github.com/jlisita/Data_structure_framework" target="_blank">Voir sur Github</a></p>
+            </article>
+        </section>
+        <section id = "contact">
+            <h2>Contactez moi</h2>
+            <form action="">
+                <p id = "formulaire">
+                    <label for="name">Nom: </label>
+                    <input type="text" name="name" id="name">
+                    <br>
+                    <label for="email">Email: </label>
+                    <input type="email" name="email" id="email">
+                    <br>
+                    <label for="sujet">Sujet: </label>
+                    <input type="text" name="sujet" id="sujet">
+                    <br>
+                    <label for="message">Message: </label>
+                    <textarea name="message" id="message"></textarea>
+                    <br>
+                    <input type="submit" value="Envoyer"></p>
+                </p>
+            </form>
+            <p id = "carte">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2829.2454675197773!2d-0.6432596234733935!3d44.8369341710705!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd54d9cce052920f%3A0xa7ac072c9c8fdc71!2s12%20Av.%20Pierre%20Mend%C3%A8s-France%2C%2033700%20M%C3%A9rignac!5e0!3m2!1sfr!2sfr!4v1708096168275!5m2!1sfr!2sfr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </p>
+        </section>
+    </main>
+    <footer>
+        <div class ="network">
+            <a href="https://www.linkedin.com/in/julienlisita/"><img src="Assets/images/github.png" alt="logo facebook"></a>
+            <a href="https://github.com/jlisita"><img src="Assets/images/linkedIn.png" alt="logo LinkedIn"></a>
+        </div>
+        <p> &copy Julien Lisita 2024</p>
+    </footer>
+</body>
+</html>
