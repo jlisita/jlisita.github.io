@@ -69,24 +69,28 @@
             <h2>Contactez moi</h2>
             <form action="" id = "formulaire-contact">
                 <p>
-                    <select name="genre" id="genre">
-                        <option value="monsieur">M.</option>
-                        <option value="madame">MM.</option>
-                        <option value="autres">Autres</option>
-                    </select>
-                    <label for="name">Prénom Nom * </label>
-                    <input type="text" name="name" id="name" required placeholder="Ex : Mathieu Durand" size="30" maxlength="30">
-                    <br>
-                    <label for="email">Email *  </label>
-                    <input type="email" name="email" id="email" required placeholder="Ex : mathieudurand@gmail.com" size="30" maxlength="30">
-                    <br>
-                    <label for="sujet">Sujet </label>
-                    <input type="text" name="sujet" id="sujet" placeholder="Type de demande ?" size="30" maxlength="30">
-                    <br>
-                    <label for="message">Message * </label>
-                    <br>
-                    <textarea name="message" id="message" required placeholder="Parler moi de votre projet" rows="10" cols="50"></textarea>
-                    <br>
+                    <fieldset>
+                        <legend>Vos coordonneés</legend>
+                        <select name="genre" id="genre">
+                            <option value="monsieur" selected>M.</option>
+                            <option value="madame">MM.</option>
+                            <option value="autres">Autres</option>
+                        </select>
+                        <label for="name">Prénom Nom * </label>
+                        <input type="text" name="name" id="name" required autofocus placeholder="Ex : Mathieu Durand" size="30" maxlength="30">
+                        <br>
+                        <label for="email">Email *  </label>
+                        <input type="email" name="email" id="email" required placeholder="Ex : mathieudurand@gmail.com" size="30" maxlength="30">    
+                    </fieldset>
+                    <fieldset>
+                        <legend>Votre demande</legend>
+                        <label for="sujet">Sujet </label>
+                        <input type="text" name="sujet" id="sujet" placeholder="Type de demande ?" size="30" maxlength="30">
+                        <br>
+                        <label for="message">Message * </label>
+                        <br>
+                        <textarea name="message" id="message" required placeholder="Parler moi de votre projet" rows="10" cols="50"></textarea>
+                    </fieldset>
                     <input type="submit" value="Envoyer"></p>
                 </p>
             </form>
