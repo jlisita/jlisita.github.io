@@ -122,5 +122,54 @@ nav a:hover
     box-shadow: 3px 3px 2px black;
 }
 
+#skills
+{
+    background-color: rgb(221, 221, 221);
+    margin-top: 100px;
+    
+    height: 850px;
+    border: 1px solid rgb(221, 221, 221);
+
+    position: relative;
+    top: 870px;
+    z-index: 2;
+}
+
+#skills-array
+{
+    width: 600px;
+    height: 200px;
+    margin:auto;
+}
+
+
+#projects
+{
+    background-color: white;
+
+    height: 2000px;
+    border: 1px white solid;
+   
+    position: relative;
+    top: 870px;
+    z-index: 2;
+}
+
+#projects article
+{
+    width: 900px;
+    margin: auto;
+} 
+
+.project-picture
+{
+    text-align: center;
+}
+
+.project-description
+{
+    font-size: 20px;
+}
+
 
 
