@@ -2,13 +2,24 @@
 {
     box-sizing: border-box;
 }
+*
+{
+    padding:0px;
+    margin:0px;
+}
 
 h2
 {
     font-size: 40px;
     text-align: center;
 
-    padding-top: 50px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+h3
+{
+    padding-bottom: 20px;
 }
 
 header
@@ -25,8 +36,7 @@ header
 
 #titre-principal h2
 {
-
-    padding-top: 0px;
+    padding-top:50px;
     font-size: 15px;
 }
 
@@ -37,7 +47,6 @@ nav
 
 nav ul
 {
-    margin: 0px;
     list-style-type: none;
 
     display: flex;
@@ -47,7 +56,6 @@ nav ul
 nav li 
 {
     width: 150px; 
-    margin: 0px;
 }
 
 nav a
@@ -60,7 +68,6 @@ nav a
     width: 150px;
     height: 120px;
     padding-top: 50px;
-    margin: 0px;
 
     display: inline-block;  
 }
@@ -94,9 +101,6 @@ nav a:hover
 
 #presentation
 {
-    border: 1px white solid;
-    margin-top: 100px;
-
     display: flex;
     justify-content: space-around;
 
@@ -105,7 +109,6 @@ nav a:hover
 #photo-profil
 {
     width:450px;
-
 }
 
 #biographie
@@ -125,14 +128,9 @@ nav a:hover
 #skills
 {
     background-color: rgb(221, 221, 221);
-    margin-top: 100px;
-    
+
     height: 850px;
     border: 1px solid rgb(221, 221, 221);
-
-    position: relative;
-    top: 870px;
-    z-index: 2;
 }
 
 #skills-array
@@ -142,17 +140,12 @@ nav a:hover
     margin:auto;
 }
 
-
 #projects
 {
     background-color: white;
 
     height: 2000px;
     border: 1px white solid;
-   
-    position: relative;
-    top: 870px;
-    z-index: 2;
 }
 
 #projects article
@@ -163,12 +156,26 @@ nav a:hover
 
 .project-picture
 {
-    text-align: center;
+    width: 400px;
+    margin:auto;
+    margin-bottom: 30px;
 }
 
-.project-description
+.project-picture img
+{
+    border: 1px solid black;
+}
+
+.project_description
 {
     font-size: 20px;
+
+    padding-bottom: 20px;
+}
+
+article
+{
+    padding-bottom: 50px;
 }
 
 
