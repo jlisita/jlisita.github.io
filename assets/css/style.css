@@ -2,10 +2,16 @@
 {
     box-sizing: border-box;
 }
+
 *
 {
     padding:0px;
     margin:0px;
+}
+
+h1
+{
+    padding-top: 30px;
 }
 
 h2
@@ -19,6 +25,9 @@ h2
 
 h3
 {
+    font-size: 20px;
+    text-align: center;
+
     padding-bottom: 20px;
 }
 
@@ -34,10 +43,16 @@ header
     justify-content: space-between;
 }
 
+#titre-principal
+{
+    padding-left: 20px;
+}
+
 #titre-principal h2
 {
-    padding-top:50px;
-    font-size: 15px;
+    padding-top: 20px;
+    padding-bottom: 0px;
+    font-size: 20px;
 }
 
 nav
@@ -95,7 +110,7 @@ nav a:hover
 #about
 {
     background-color: white;
-    height: 850px;
+    height: 1000px;
     border: 1px white solid;
 } 
 
@@ -103,7 +118,6 @@ nav a:hover
 {
     display: flex;
     justify-content: space-around;
-
 }
 
 #photo-profil
@@ -129,14 +143,17 @@ nav a:hover
 {
     background-color: rgb(221, 221, 221);
 
-    height: 850px;
+    height: 1000px;
     border: 1px solid rgb(221, 221, 221);
 }
 
 #skills-array
 {
-    width: 600px;
-    height: 200px;
+    text-align:center;
+    font-size:25px;
+
+    width: 800px;
+    height: 300px;
     margin:auto;
 }
 
@@ -178,5 +195,100 @@ article
     padding-bottom: 50px;
 }
 
+#contact
+{
+    background-color: rgb(221, 221, 221);
 
+    height: 1800px;
+    border: 1px solid rgb(221, 221, 221);
+}
 
+form
+{
+    width:500px;
+    font-size: 20px;
+
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+fieldset
+{
+    border-radius: 10px;
+    padding:20px;
+}
+
+form div
+{
+    text-align: center;
+
+    margin-bottom: 20px;
+}
+
+input,form textarea, select
+{
+    background-color: rgb(221, 221, 221);
+    font-size: 20px;
+    margin: 10px;
+}
+
+#button-form
+{
+    text-align: center;
+
+    margin:10px;
+
+}
+
+#button-form input
+{
+    width:100px;
+
+    padding: 10px;
+    border-radius: 10px;
+}
+
+#info
+{
+    font-size: 28px;
+
+    width:200px;
+    margin:auto;
+    margin-bottom: 50px;
+}
+
+#carte
+{
+    text-align: center;
+
+    margin-bottom: 50px;
+}
+
+footer
+{
+    background-color: white;
+
+    padding: 20px;
+    border: 1px white solid;
+    border-top: 1px white solid;
+}
+.network
+{
+    width: 200px;
+    margin: auto;
+
+    padding-bottom: 10px;
+
+    display: flex;
+    justify-content: space-around;
+}
+
+.network img
+{
+    width:50px;
+}
+
+footer p
+{
+    text-align: center;
+}
