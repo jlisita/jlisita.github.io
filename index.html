@@ -73,25 +73,40 @@
         </section>
         <section id = "projects">
             <h2>Projets</h2>
-            <article id = "first-project">
-                <p class = "project-picture"><img src="Assets/images/chess.png" alt="image de la console" width = "400"></p>
-                <h3>Shell Chess (langage C)</h3>
-                <p class = "project_description">Jeu d'échec en ligne de commande</p>
-                <p><a href="https://github.com/jlisita/Shell_Chess" target="_blank">voir sur Github</a></p>
-            </article>
-            <article id = "second-project">
-                <p class = "project-picture"><img src="assets/images/klondike.png" alt="image de la console" width = "400"></p>
-                <h3>Klondike Game (Langage Java)</h3>
-                <p class = "project_description">Jeu du solitaire en ligne de commande</p>
-                <p><a href="https://github.com/jlisita/Klondike_game" target="_blank">voir sur Github</a></p>
-            </article>
-            <article id = "third-project">
-                <p class = "project-picture"><img src="assets/images/list.png" alt="image de l'interface" width = "400"></p>
-                <h3>Data structure Framework (Langage Java avec interface Swing)</h3>
-                <p class = "project_description">Framework contenant des classes de type list permettant de stocker et manipuler des ensembles de données. 
-                    Une interface graphique est ajoutée pour les tests</p>
-                <p><a href="https://github.com/jlisita/Data_structure_framework" target="_blank">Voir sur Github</a></p>
-            </article>
+            <div id = "myProjects">
+                <article class = "project" id = "first-project">
+                    <p class = "project-picture"><img src="Assets/images/chess.png" alt="image de la console" width = "400"></p>
+                    <div class = "info-project">
+                        <h3>Shell Chess (C)</h3>
+                        <p class = "project_description">Jeu d'échec en ligne de commande avec détection des coups permis, 
+                            des siutations d'échec et mat.</p>
+                        <div class="lienProjet">
+                            <a href="https://github.com/jlisita/Shell_Chess" target="_blank">voir sur Github</a>
+                        </div>
+                    </div>
+                </article>
+                <article class = "project" id = "second-project">
+                    <p class = "project-picture"><img src="assets/images/klondike.png" alt="image de la console" width = "400"></p>
+                    <div class = "info-project">
+                        <h3>Klondike Game (Java)</h3>
+                        <p class = "project_description">Jeu du solitaire en ligne de commande, simulant les piles, les placements autorisés et la pioche de carte.</p>
+                        <div class="lienProjet">
+                            <a href="https://github.com/jlisita/Klondike_game" target="_blank">voir sur Github</a>
+                        </div>
+                    </div>
+                </article>
+                <article class = "project" id = "third-project">
+                    <p class = "project-picture"><img src="assets/images/list.png" alt="image de l'interface" width = "400"></p>
+                    <div class = "info-project">
+                        <h3>Data structure Framework (Java)</h3>
+                        <p class = "project_description">Bibiothèque de classe permetatnt de manipuler des listes avec interface graphique pour les tests.</p>
+                        <div class="lienProjet">
+                            <a href="https://github.com/jlisita/Data_structure_framework" target="_blank">Voir sur Github</a>
+                        </div>
+                    </div>
+                </article>
+
+            </div>
             <div class = "anchor" id = "anchor-contact"></div>
         </section>
         <!-- #prise de contact -->
