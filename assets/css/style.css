@@ -403,10 +403,16 @@ footer
     justify-content: space-around;
 }
 
-.network img
+.fa-brands
 {
-    width:50px;
+    color: black;
 }
+
+.network a
+{
+    font-size:50px;
+}
+
 
 footer p
 {
