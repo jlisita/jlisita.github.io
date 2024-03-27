@@ -127,22 +127,85 @@ nav a:hover
     background-color: black;
 
     width:100%;
-    height: 1000px;
+    height: 100vh;
     border: 1px solid black;
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
     position: fixed;
-    z-index: 1;
+    z-index: 1; 
 }
 
 #home
 {
     height: 1000px;
-
     position: relative;
     z-index: 2;
 }
 
-#phrase-accueil
+
+.slider-container
+{
+    width: 600px;
+    height: 300px;
+    overflow: hidden;
+
+}
+
+.slider
+{
+    display:flex;
+    flex-direction: column;
+    height: 100%;
+    animation-name: slider;
+    animation-duration: 12s;
+    animation-iteration-count: infinite;
+    animation-timing-function: ease-in-out;
+}
+
+.slider p
+{
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    flex-shrink: 0;
+    width:100%;
+    height: 100%;
+    font-size: 75px;
+    color: white;
+    text-align: center;
+}
+
+@keyframes slider
+{
+    0%,
+    20%
+    {
+        transform: translateY(0);
+    }
+    25%,
+    45%
+    {
+        transform: translateY(-100%);
+    }
+    50%,
+    70%
+    {
+        transform: translateY(-200%);
+    }
+    75%,
+    95%
+    {
+        transform: translateY(-300%);
+    }
+    100%
+    {
+        transform: translateY(-400%);
+    }
+}
+
+/* #phrase-accueil
 {
     font-size: 50px;
     color: white;
@@ -152,9 +215,9 @@ nav a:hover
     animation-duration: 4s;
     animation-iteration-count: infinite;
     animation-timing-function: linear;
-}
+} */
 
-@keyframes move 
+/* @keyframes move 
 {
     25%
     {
@@ -173,7 +236,7 @@ nav a:hover
         padding-top: 400px;
     }
 
-}
+} */
 
 #about
 {
