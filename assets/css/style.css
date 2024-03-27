@@ -81,18 +81,12 @@ header
     font-size: 20px;
 }
 
-nav
-{
-    width: 800px;
-}
-
 nav ul
 {
     list-style-type: none;
 
     display: flex;
-    justify-content: flex-start;
-    flex-wrap : wrap;
+    justify-content: center;
 }
 
 nav li 
@@ -119,6 +113,21 @@ nav a:hover
 {
     color: #fcf9f9;
     background-color: black;
+}
+
+@media screen and (max-width: 1000px) 
+{
+    header
+    {
+        flex-direction: column;
+        align-items: center;
+        position: relative;
+    }
+    nav ul
+    {
+        flex-direction: column;
+       
+    }
 }
 
 
@@ -204,39 +213,6 @@ nav a:hover
         transform: translateY(-400%);
     }
 }
-
-/* #phrase-accueil
-{
-    font-size: 50px;
-    color: white;
-
-    padding-top: 400px;
-    animation-name: move;
-    animation-duration: 4s;
-    animation-iteration-count: infinite;
-    animation-timing-function: linear;
-} */
-
-/* @keyframes move 
-{
-    25%
-    {
-        padding-top: 500px;
-    }
-    50%
-    {
-        padding-top: 600px;
-    }
-    75%
-    {
-        padding-top: 500px;
-    }
-    100%
-    {
-        padding-top: 400px;
-    }
-
-} */
 
 #about
 {
